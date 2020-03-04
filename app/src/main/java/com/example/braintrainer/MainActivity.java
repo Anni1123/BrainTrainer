@@ -77,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
 
         Random rand = new Random();
 
-        int a = rand.nextInt(21);
-        int b = rand.nextInt(21);
+        int a = rand.nextInt(20);
+        int b = rand.nextInt(20);
 
         sumTextView.setText(Integer.toString(a) + " + " + Integer.toString(b));
 
@@ -135,7 +135,6 @@ public class MainActivity extends AppCompatActivity {
         numberOfQuestions++;
         pointsTextView.setText(Integer.toString(score) + "/" + Integer.toString(numberOfQuestions));
         generateQuestion();
-
 
     }
 
